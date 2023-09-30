@@ -1,0 +1,37 @@
+Simio15.254.33325:¿
+=
+input
+layer1_Weightslayer1_MatMullayer1_MatMul"MatMul
+;
+layer1_MatMul
+layer1_Biases
+layer1_Add
+layer1_Add"Add
+,
+
+layer1_Addlayer1_Tanhlayer1_Tanh"Tanh
+C
+layer1_Tanh
+layer2_Weightslayer2_MatMullayer2_MatMul"MatMul
+;
+layer2_MatMul
+layer2_Biases
+layer2_Add
+layer2_Add"Add
+/
+
+layer2_Addoutputlayer2_Identity"IdentityNetwork*™
+Blayer1_WeightsJ€­&µà­Ø¿ñŒdß”n·?«<;E¢?+!ïÃ€fÅ?¸ü…-¾šÊ?(ˆ+mÎºĞ?r´Ì-%¶İ?A&Aw”»À?¡Èÿ:çÙ¿úµ¬Ø¿ü¶®ª Ğ?Yó"ZÎ¿Û½zxË‘Ó¿Å•JÄ?-òj#áÖ¿Ûyñœé‰Â?*6
+Blayer1_BiasesJ kÙêP¥¿şñä}¿pìË’ik?…W'z¹Y²?*8
+Blayer2_WeightsJ 
+¥ú7H|™¿HÙŞÕ÷PÆ¿Õpcñ6¬?­#ge¸Ô?*
+Blayer2_BiasesJDo³uª®»?Z
+input
+
+
+b
+output
+
+
+B
+ai.onnx
