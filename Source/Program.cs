@@ -43,8 +43,8 @@ namespace RunOnnxRuntimeConsole
             var r = ((DenseTensor<double>)result.Single().Value).ToArray();
 
             Console.WriteLine(r[0].ToString());
-            //Console.WriteLine("Press 'Enter' To End");
-            //Console.ReadLine();
+            Console.WriteLine("Press 'Enter' To End");
+            Console.ReadLine();
 
             // From the Enumerable output create the inferenceResult by getting the First value and using the AsDictionary extension method of the NamedOnnxValue.
             //var inferenceResult = output.First().AsDictionary<string, double>();
